@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    position: fixed;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 3vw;
+    background-color: #808080;
+    color: white;
+    list-style-type: none;
+    overflow: hidden;
+    /* обязательно изучить что делает оверфлоу и оверфлоу хидден */
+}
+
+
+ul:hover {
+    width: 16vw;
+    transition-duration: 1.5s;
+    /* 1
+    overflow: hidden; */
+}
+
+/* 2
+.invisible{
+    display: none;
+}
+3
+ul:hover .invisible{
+    display: block;
+} */
+/* надо обязательно посмотреть дома что делают обозначеные 123 коментарии */
+
+
+menu {
+    font-size: medium;
+    margin-left: 0.5vw;
+}
+
+
+img {
+    width: 3vw;
+    height: 3vw;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+/* 
+.invisible {
+    opacity: 0;
+    НАЖАТЬ ЗДЕСЬ ЧТО БЫ ПОКАЗАТЬ ЧТО ЭТО КОСТЫЛЬ КОТОРЫЙ НЕ ДОКОНЦА РАБОТАЕТ
+} */
+
+/* 
+.invisible:hover {
+    opacity: 1;
+} */
+
+
+li:hover {
+    background-color: #5E5E5E;
+}
+
+
+.drop-right {
+    display: flex;
+    align-items: center;
+}
+
+
+main {
+    margin: 1vw 1vw 1vw 8vw;
+}
+
+/* ОБЯЗАТЕЛЬНО СПРОСИТЬ ПОЧЕМУ МАРДЖИН ВЫСТАВЛЕННЫЙ ДЛЯ МЭЙН РАБОТАЕТ И ДЛЯ НАВ */
